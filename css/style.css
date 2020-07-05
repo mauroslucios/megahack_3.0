@@ -1,0 +1,28 @@
+/*RESET*/
+*{margin:0; padding: 0; font-size: 100%;box-sizing: border-box}
+ul{list-style: none;}
+a{text-decoration: none; cursor: pointer;opacity: 0.9;}
+a:hover{opacity: 1;}
+
+/*HEADER*/
+header{background-color:#75D5C9; width: 100%; display: flex;justify-content: space-between;align-items: center;padding:5px 50px ;}
+header a{width: 20%;}
+header .logo{width: 50px; height: 50px; border-radius: 5px;}
+header form{width: 60%;}
+header input{width: 80%; height: 30px; border-radius: 5px;border: none;}
+header .avatar{width: 20%; display: flex;text-align: center;}
+.avatar img{width: 50px; height: 50px;}
+.avatar .monkey{padding: 5%; text-transform: uppercase; color:#ffffff;}
+/*MAIN*/
+main{display: flex; justify-content: space-around; width: 100%}
+main .destaque{width: 70%;height: 500px; background-color:#E3E2D4;}
+main .destaque nav{list-style-type: none;display: flex; padding: 19px; width: 100%;background-color:#F7F6F2; justify-content: space-between;color:rgba(0,0,0,0.4); }
+main nav li{text-transform: uppercase;}
+main .ranking{width:30%; height: 100%;background-color:#a67eca;padding: 1px; }
+main .ranking .nav_ranking{display: flex;justify-content: space-between;width: 100%; padding:0px 2px; color: #ffffff;}
+.medalha, .bronze, .pontos{padding: 3px;}
+.medalha{width: 30; height: 50px;}
+main .destaque img{margin:25px; width: 100px; height: 150;}
+main .destaque h1{margin: 10px 25px;color:#a67eca;}
+
+

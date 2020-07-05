@@ -1,0 +1,18 @@
+[2020-07-04 21:14:59.359] [renderer1] [error] Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2427/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64: Error: Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2427/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64
+    at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2427/src/abstractions/node/agent.ts:306:32)
+    at ChildProcess.emit (events.js:208:15)
+    at ChildProcess.EventEmitter.emit (domain.js:476:20)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at Pipe.<anonymous> (net.js:588:12)
+[2020-07-04 21:14:59.458] [renderer1] [error] ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json': Error: ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json'

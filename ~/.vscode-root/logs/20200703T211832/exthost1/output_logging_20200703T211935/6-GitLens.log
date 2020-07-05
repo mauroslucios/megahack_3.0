@@ -1,0 +1,6 @@
+[2020-07-04 00:19:43:972] library
+Error: Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2427/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64
