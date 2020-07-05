@@ -236,3 +236,94 @@ Use '--' to separate paths from revisions, like this:
 > git ls-files --stage -- /home/mauroslucios/Documentos/megahack/index.html
 > git config --get commit.template
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/mauroslucios/Documentos/megahack/index.html
+> git cat-file -s d4edf4b54c2b751436c74581d1a777d7b87ed9e3
+> git symbolic-ref --short HEAD
+> git show :index.html
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :css/style.css
+> git ls-files --stage -- /home/mauroslucios/Documentos/megahack/css/style.css
+> git cat-file -s 76253ed8e8bffdb9f57b4e43e95cdaf3c2144594
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :index.html
+> git ls-files --stage -- /home/mauroslucios/Documentos/megahack/index.html
+> git cat-file -s d4edf4b54c2b751436c74581d1a777d7b87ed9e3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :css/style.css
+> git ls-files --stage -- /home/mauroslucios/Documentos/megahack/css/style.css
+> git cat-file -s 76253ed8e8bffdb9f57b4e43e95cdaf3c2144594
+> git show :index.html
+> git ls-files --stage -- /home/mauroslucios/Documentos/megahack/index.html
+> git cat-file -s d4edf4b54c2b751436c74581d1a777d7b87ed9e3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :css/style.css
+> git ls-files --stage -- /home/mauroslucios/Documentos/megahack/css/style.css
+> git cat-file -s 76253ed8e8bffdb9f57b4e43e95cdaf3c2144594
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
