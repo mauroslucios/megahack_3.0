@@ -1,9 +1,0 @@
-['ls:info'] SQLTools Server started!
-===============================
-Using node runtime?: no
-ExecPath: /snap/code/31/usr/share/code/code 
-===============================
-['ext:lc:info'] LanguageClient ready
-namespaces set to  *,-babel*,-*:debug,-*:*:debug,-*:*:*:debug,-*:*:*:*:debug,-*:*:*:*:*:debug
-['ls:info'] request to register plugin: "/root/.vscode/extensions/mtxr.sqltools-driver-sqlite-0.1.0/out/ls/plugin.js"
-['ls:ls-context:register-driver'] Driver sqlite registered!
