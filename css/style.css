@@ -1,186 +1,272 @@
+@font-face {
+    font-family: Sketch;
+    src: url("../fonts/Sketch.otf");
+}
+
+@font-face {
+    font-family: Comica;
+    src: url("../fonts/ComicaRegular.otf");
+}
+
 /*RESET*/
-*{
-    margin:0; 
-    padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
     font-size: 100%;
     box-sizing: border-box
 }
-html{background-color:#75d5c9;}
-ul{list-style: none;}
-a{
-    text-decoration: none; 
+
+html {
+    background-color: #75d5c9;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
     cursor: pointer;
     opacity: 0.9;
 }
-a:hover{opacity: 1;}
+
+a:hover {
+    opacity: 1;
+}
 
 /*HEADER*/
-header{
-    background-color:#75D5C9; 
-    width: 100%; 
+header {
+    background-color: #75D5C9;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:5px 50px;
+    padding: 5px 50px;
 }
-header a{width: 20%;}
-header .logo{
-    width: 50px; 
-    height: 50px; 
+
+header a {
+    width: 20%;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
     border-radius: 5px;
 }
-header form{width: 60%;}
-header input{
-    width: 80%; 
-    height: 30px; 
+
+#placeholder::-webkit-input-placeholder {
+    font-family: Comica;
+    font-size: 20px;
+    color: #7159c1;
+    opacity: .5;
+}
+
+header form {
+    width: 60%;
+}
+
+header input {
+    width: 80%;
+    height: 30px;
     border-radius: 5px;
-    border: none; 
+    border: none;
     padding: 0px 20px;
 }
-header form i{
+
+header form i {
     color: #ffffff;
 }
-header .avatar{
-    width: 20%; 
+
+header .avatar {
+    width: 20%;
     display: flex;
     text-align: center;
 }
-.avatar img{
-    width: 50px; 
+
+.avatar img {
+    width: 50px;
     height: 50px;
 }
-.avatar .monkey{
-    padding: 5%; 
-    text-transform: uppercase; 
-    color:#ffffff;
+
+.avatar .monkey {
+    padding: 5%;
+    font-family: Comica;
+    font-size: 20px;
+    color: #7159c1;
 }
 
 /*MAIN*/
-main{
-    display: flex; 
-    justify-content: space-around; 
+main {
+    display: flex;
+    justify-content: space-around;
     width: 100%
 }
-main .destaque{
+
+main .destaque {
     width: 70%;
-    height:624px; 
-    background-color:#E3E2D4;
+    height: 624px;
+    background-color: #E3E2D4;
 }
-main .destaque nav{
+
+main .destaque nav {
     list-style-type: none;
-    display: flex; padding: 19px; 
+    display: flex;
+    padding: 19px;
     width: 100%;
-    background-color:#F7F6F2; 
-    justify-content: space-between; 
+    background-color: #F7F6F2;
+    justify-content: space-between;
 }
-main .destaque nav a{
-    color:rgba(0,0,0,0.4);
+
+main .destaque nav a {
+    font-family: Comica;
+    font-size: 20px;
+    color: #7159c1;
 }
-main nav li{
+
+main nav li {
     text-transform: uppercase;
 }
-main .ranking{
-    width:30%; 
-    height:624px;
-    padding: 1px; 
-    background-color:#75d5c9; 
+
+main .ranking {
+    width: 30%;
+    height: 624px;
+    padding: 1px;
+    background-color: #75d5c9;
 }
-main .ranking h1{
-    width: 100%; 
+
+main .ranking h1 {
+    width: 100%;
     display: flex;
     justify-content: center;
-     padding: 10px;
+    padding: 10px;
 }
-main .ranking .nav_ranking{
+
+main .ranking .nav_ranking {
     display: flex;
     justify-content: space-between;
-    width: 100%;margin:-1px;
-     padding:1px 2px; 
-     color: #ffffff;
-     background-color:#a67eca;
+    width: 100%;
+    margin: -1px;
+    padding: 1px 2px;
+    color: #ffffff;
+    background-color: #a67eca;
 }
-main .ranking .liga{
-    display:block;
-    width: 100%; 
-    height: 57px; 
+
+main .ranking .liga {
+    display: block;
+    width: 100%;
+    height: 57px;
     padding: 18px;
-    background-color:#F7F6F2; 
-    margin-left:-1px;
+    background-color: #F7F6F2;
+    margin-left: -1px;
     margin-top: -1px;
     border-left: 1px solid #ffffff;
     justify-content: space-around;
-    color:rgba(0,0,0,0.4);
+    font-size: 17px;
 }
-main .tempo{width: 25px;}
-main .ranking .destaqueMes img{
-    width: 100px; 
+
+main .tempo {
+    width: 25px;
+}
+
+main .ranking .destaqueMes img {
+    width: 100px;
     height: 150px;
-    margin: 10px 15px; 
+    margin: 10px 15px;
     float: left;
-        
 }
-main .ranking .namesdestaques{
-    display: flex; 
+
+main .ranking .namesdestaques {
+    display: flex;
     width: 100%;
     justify-content: space-around;
-    color:#ffffff
-   
 }
-main .ranking .namesdestaques .colocados{
-    width: 30; 
+
+main .ranking .namesdestaques .colocados {
+    width: 30;
     height: 60px;
 }
-.medalha, .bronze, .pontos{
+
+.medalha,
+.bronze,
+.pontos {
     padding: 3px;
-    
+
 }
-.pontos{
+
+.pontos {
     margin-top: 15px;
 }
-.medalha{
-    width: 30; 
+
+.medalha {
+    width: 30;
     height: 50px;
 }
-main .destaque h1{
+
+main .destaque h1 {
     margin: 10px 25px;
-    color:#a67eca; 
-    display: block; 
+    display: block;
     text-transform: uppercase;
-    color:rgba(0,0,0,0.4);
- }
-.livros{
-    float: left; 
-    display: inline; 
-    margin:15px 30px; 
+    color: #7159c1;
+    font-family: Comica;
+    font-size: 20px;
+}
+
+.livros {
+    float: left;
+    display: inline;
+    margin: 15px 25px;
     text-align: center;
     transition: transform .2s;
+    font-family: Comica;
+    color: #7159c1;
 }
-.livros .books:hover{
+
+.livros .books:hover {
     transform: scale(1.5);
 }
-.livros p{
-    text-transform: uppercase; 
-    color:#000000
- }
-.books{
-    width: 125px; 
-    height: 175px; 
+
+.livros p {
+    text-transform: uppercase;
+    color: #000000
+}
+
+.books {
+    width: 125px;
+    height: 175px;
     display: block;
     margin-bottom: 10px;
 }
-.readmore{ 
-    display: flex; 
+
+.readmore {
+    display: flex;
     width: 100%;
 }
-.star{
-    width: 14px; 
+
+.star {
+    width: 14px;
     height: 14px;
 }
-footer{
-    display: flex; 
-    width: 100%; 
+
+footer {
+    display: flex;
+    width: 100%;
     justify-content: center;
-    color: #ffffff;
-    padding: 20px; 
+    padding: 20px;
     border-top: 1px solid #ffffff;
-} 
+    color: #7159c1;
+    font-family: Comica;
+    font-size: 20px;
+}
+
+a.fonte {
+    font-family: Sketch;
+    font-size: 50px;
+    color: #7159c1;
+    margin-left: 15px;
+}
+
+.ranking {
+    color: #7159c1;
+    font-family: Comica;
+    font-size: 20px;
+}
